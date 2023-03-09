@@ -1,0 +1,47 @@
+@media (max-width: 800px) {
+  .flex-item-left,
+  .flex-item-right {
+    flex: 100%;
+  }
+  .flex-container {
+    flex-direction: column;
+    padding: 25px 12px 55px;
+  }
+  .flex-item-left {
+    padding: 35px 15px 40px;
+  }
+  .flex-item-left h2 {
+    font-size: 24px;
+  }
+  .flex-item-right .mobile-img img {
+    width: 60%;
+  }
+  .card {
+    margin-top: 20px;
+  }
+  .download {
+    top: 0;
+    left: 0;
+    padding: 40px 0px;
+    position: static;
+  }
+  .contact {
+    padding: 50px 0px;
+  }
+  .about-us {
+    padding: 50px 0px;
+  }
+  .about-us p {
+    padding-right: 0px;
+  }
+  .blog {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 1245px) {
+  .download {
+    top: 519%;
+    left: 24%;
+    padding: 40px 80px;
+  }
+}
